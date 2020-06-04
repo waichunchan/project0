@@ -6,6 +6,10 @@
     font-size:28px;
     color:green;
   }
+  a+p {
+    color: red;
+    font-size:30px;
+  }
   table {
     border: 2px solid black;
     border-collapse: collapse;
@@ -30,11 +34,11 @@
   }
   body > button {
     border: 8px black line;
-    font-size: 20px;
     margin : 1px 500px;
+    font-size: 30px;
   }
-  #submit1 {
-    font-size: 60px;
+  .submit1 {
+    font-size: 30px;
   }
   #input1 {
     font-size: 60px;
@@ -48,4 +52,10 @@
   #list {
     font-size: 30px;
     color: navy;
+  }
+  #list:hover {
+    color: blue;
+  }
+  form~button:hover {
+    background-color: yellow;
   }

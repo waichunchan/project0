@@ -1,19 +1,32 @@
 $color: navy;
-.list1 {
-  color: $color;
-}
+$width: 30%;
 #grid {
   display: grid;
   border: 2px solid black;
   background-color: green;
   grid-column: 20px;
   grid-row: 10px;
-  grid-template-columns: 400px 400px auto;
-  margin-top: 200px;
+  grid-template-columns: auto auto auto;
+  margin-top: 40px;
 }
-.grid-item {
-  font-size: 20px;
+#grid div {
+  font-size: 50px;
   text-align: center;
   font-weight: bold;
   border : 2px solid black;
+}
+.list1 {
+  color: $color;
+}
+#earth {
+  width: $width;
+}
+#typing {
+  width: $width;
+}
+#food {
+  width: $width;
+}
+a {
+  font-size: 30px;
 }
