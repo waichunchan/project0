@@ -25,6 +25,9 @@
     font-size: 40px;
     margin: 200px 500px;
   }
+  #gender{
+    font-size: 30px;
+  }
   body > button {
     border: 8px black line;
     font-size: 20px;
@@ -35,4 +38,18 @@
   }
   #input1 {
     font-size: 60px;
+  }
+  #grid {
+    display: grid;
+    border: 2px solid black;
+    background-color: green;
+    grid-column: 20px;
+    grid-row: 10px;
+    grid-template-columns: 200px 200px auto;
+  }
+  .grid-item {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    border : 2px solid black;
   }
