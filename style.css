@@ -14,14 +14,25 @@
     border: 1px solid black;
     text-align: center;
   }
-  button{
-    size: 150px;
-    margin: 250px 350px 150px;
-  }
   a {
     color: black;
     text-align: center;
     font-weight: bold;
     font-size: 150px;
     padding: 30px;
+  }
+  form {
+    font-size: 40px;
+    margin: 200px 500px;
+  }
+  body > button {
+    border: 8px black line;
+    font-size: 20px;
+    margin : 1px 500px;
+  }
+  #submit1 {
+    font-size: 60px;
+  }
+  #input1 {
+    font-size: 60px;
   }

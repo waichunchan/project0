@@ -2,32 +2,19 @@
 <html>
    <head>
      <title>My webpage!</title>
-     <style>
-       body {
-         font-size: 40px;
-         margin: 200px 500px;
-       }
-       button {
-         border: 8px black line;
-         font-size: 20px;
-       }
-       input {
-         font-size: 60px;
-         width: 300px;
-       }
-     </style>
+     <link rel="stylesheet" href="style.css">
    </head>
    <body>
      <form>
-       <div><input name="name" type="text" placeholder="Full Name"></div>
+       <div><input id="input1" name="name" type="text" placeholder="Full Name"></div>
        Gender:
        <div>
-         <input name="gender" type="radio" value="Male"> Male
-         <input name="gender" type="radio" value="Female"> Female
+         Male <input name="gender" type="radio" value="Male">
+         Female <input name="gender" type="radio" value="Female">
        </div>
      </form>
      <button type="button" name="button">
-       <a href="project0.index.html">Submit</a>
+       <a id="submit1" href="project0.index.html">Submit</a>
      </button>
    </body>
 </html>
