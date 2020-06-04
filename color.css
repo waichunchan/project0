@@ -1,0 +1,22 @@
+.list1 {
+  color: navy;
+}
+
+#grid {
+  display: grid;
+  border: 2px solid black;
+  background-color: green;
+  grid-column: 20px;
+  grid-row: 10px;
+  grid-template-columns: 400px 400px auto;
+  margin-top: 200px;
+}
+
+.grid-item {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+/*# sourceMappingURL=color.css.map */

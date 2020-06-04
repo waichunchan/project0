@@ -1,0 +1,19 @@
+$color: navy;
+.list1 {
+  color: $color;
+}
+#grid {
+  display: grid;
+  border: 2px solid black;
+  background-color: green;
+  grid-column: 20px;
+  grid-row: 10px;
+  grid-template-columns: 400px 400px auto;
+  margin-top: 200px;
+}
+.grid-item {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  border : 2px solid black;
+}
