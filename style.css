@@ -1,0 +1,27 @@
+  #heading {
+    color:blue;
+    text-align:center;
+  }
+  .interest {
+    font-size:28px;
+    color:green;
+  }
+  table {
+    border: 2px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid black;
+    text-align: center;
+  }
+  button{
+    size: 150px;
+    margin: 250px 350px 150px;
+  }
+  a {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 150px;
+    padding: 30px;
+  }
